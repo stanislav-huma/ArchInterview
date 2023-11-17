@@ -11,6 +11,11 @@
 		F124EB532B07821E00EE6A56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124EB522B07821E00EE6A56 /* ContentView.swift */; };
 		F124EB552B07822000EE6A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F124EB542B07822000EE6A56 /* Assets.xcassets */; };
 		F124EB582B07822000EE6A56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F124EB572B07822000EE6A56 /* Preview Assets.xcassets */; };
+		F19FAA632B07846300F599F0 /* CabinControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19FAA622B07846300F599F0 /* CabinControlPanel.swift */; };
+		F19FAA652B07847100F599F0 /* FloorControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19FAA642B07847100F599F0 /* FloorControlPanel.swift */; };
+		F19FAA672B07847D00F599F0 /* DispatcherControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19FAA662B07847D00F599F0 /* DispatcherControlPanel.swift */; };
+		F19FAA692B07853600F599F0 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19FAA682B07853600F599F0 /* Elevator.swift */; };
+		F19FAA6B2B07855A00F599F0 /* ElevatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19FAA6A2B07855A00F599F0 /* ElevatorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		F124EB522B07821E00EE6A56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F124EB542B07822000EE6A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F124EB572B07822000EE6A56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F19FAA622B07846300F599F0 /* CabinControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinControlPanel.swift; sourceTree = "<group>"; };
+		F19FAA642B07847100F599F0 /* FloorControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorControlPanel.swift; sourceTree = "<group>"; };
+		F19FAA662B07847D00F599F0 /* DispatcherControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatcherControlPanel.swift; sourceTree = "<group>"; };
+		F19FAA682B07853600F599F0 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
+		F19FAA6A2B07855A00F599F0 /* ElevatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 			children = (
 				F124EB502B07821E00EE6A56 /* ArchInterviewApp.swift */,
 				F124EB522B07821E00EE6A56 /* ContentView.swift */,
+				F19FAA612B07844600F599F0 /* Elevator */,
 				F124EB542B07822000EE6A56 /* Assets.xcassets */,
 				F124EB562B07822000EE6A56 /* Preview Content */,
 			);
@@ -65,6 +76,18 @@
 				F124EB572B07822000EE6A56 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F19FAA612B07844600F599F0 /* Elevator */ = {
+			isa = PBXGroup;
+			children = (
+				F19FAA622B07846300F599F0 /* CabinControlPanel.swift */,
+				F19FAA642B07847100F599F0 /* FloorControlPanel.swift */,
+				F19FAA662B07847D00F599F0 /* DispatcherControlPanel.swift */,
+				F19FAA682B07853600F599F0 /* Elevator.swift */,
+				F19FAA6A2B07855A00F599F0 /* ElevatorController.swift */,
+			);
+			path = Elevator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19FAA652B07847100F599F0 /* FloorControlPanel.swift in Sources */,
+				F19FAA632B07846300F599F0 /* CabinControlPanel.swift in Sources */,
 				F124EB532B07821E00EE6A56 /* ContentView.swift in Sources */,
+				F19FAA6B2B07855A00F599F0 /* ElevatorController.swift in Sources */,
 				F124EB512B07821E00EE6A56 /* ArchInterviewApp.swift in Sources */,
+				F19FAA672B07847D00F599F0 /* DispatcherControlPanel.swift in Sources */,
+				F19FAA692B07853600F599F0 /* Elevator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
